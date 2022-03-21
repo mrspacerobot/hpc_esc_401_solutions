@@ -1,0 +1,91 @@
+Process rank: 8
+Total Comp time after MPI Functions in 0.06221 seconds
+Process rank: 12
+Total Comp time after MPI Functions in 0.06213 seconds
+Process rank: 14
+Total Comp time after MPI Functions in 0.06215 seconds
+Process rank: 17
+Total Comp time after MPI Functions in 0.06218 seconds
+Process rank: 19
+Total Comp time after MPI Functions in 0.06216 seconds
+Process rank: 23
+Total Comp time after MPI Functions in 0.06222 seconds
+Process rank: 24
+Total Comp time after MPI Functions in 0.06213 seconds
+Process rank: 26
+Total Comp time after MPI Functions in 0.06216 seconds
+Process rank: 28
+Total Comp time after MPI Functions in 0.06221 seconds
+Process rank: 33
+Total Comp time after MPI Functions in 0.06221 seconds
+Process rank: 35
+Total Comp time after MPI Functions in 0.06217 seconds
+Process rank: 0
+pi is approximately 3.1415926555898399, Error is 0.0000000020000468
+Computed in 0.04966 seconds
+Total Comp time after MPI Functions in 0.06243 seconds
+Process rank: 1
+Total Comp time after MPI Functions in 0.06226 seconds
+Process rank: 2
+Total Comp time after MPI Functions in 0.06232 seconds
+Process rank: 3
+Total Comp time after MPI Functions in 0.06221 seconds
+Process rank: 4
+Total Comp time after MPI Functions in 0.06217 seconds
+Process rank: 5
+Total Comp time after MPI Functions in 0.06224 seconds
+Process rank: 6
+Total Comp time after MPI Functions in 0.06223 seconds
+Process rank: 7
+Total Comp time after MPI Functions in 0.0623 seconds
+Process rank: 9
+Total Comp time after MPI Functions in 0.06222 seconds
+Process rank: 10
+Total Comp time after MPI Functions in 0.06223 seconds
+Process rank: 11
+Total Comp time after MPI Functions in 0.06225 seconds
+Process rank: 13
+Total Comp time after MPI Functions in 0.06224 seconds
+Process rank: 15
+Total Comp time after MPI Functions in 0.06229 seconds
+Process rank: 16
+Total Comp time after MPI Functions in 0.06234 seconds
+Process rank: 18
+Total Comp time after MPI Functions in 0.06224 seconds
+Process rank: 20
+Total Comp time after MPI Functions in 0.06225 seconds
+Process rank: 21
+Total Comp time after MPI Functions in 0.06223 seconds
+Process rank: 22
+Total Comp time after MPI Functions in 0.06221 seconds
+Process rank: 25
+Total Comp time after MPI Functions in 0.06222 seconds
+Process rank: 27
+Total Comp time after MPI Functions in 0.06219 seconds
+Process rank: 29
+Total Comp time after MPI Functions in 0.06222 seconds
+Process rank: 30
+Total Comp time after MPI Functions in 0.06221 seconds
+Process rank: 31
+Total Comp time after MPI Functions in 0.06225 seconds
+Process rank: 32
+Total Comp time after MPI Functions in 0.06222 seconds
+Process rank: 34
+Total Comp time after MPI Functions in 0.06231 seconds
+
+
+Batch Job Summary Report (version 21.01.1) for Job "mpi" (37118510) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-03-11T22:30:37 2022-03-11T22:30:37 2022-03-11T22:30:38 2022-03-11T22:30:46   00:00:08   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    dbaumgar         uzh8        debug        1      0.261 kJ
+

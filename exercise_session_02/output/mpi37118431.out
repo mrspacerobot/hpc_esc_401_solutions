@@ -1,0 +1,91 @@
+Process rank: 14
+Computed in 0.0597 seconds
+Process rank: 21
+Computed in 0.05967 seconds
+Process rank: 23
+Computed in 0.05966 seconds
+Process rank: 29
+Computed in 0.05968 seconds
+Process rank: 0
+pi is approximately 3.1415926555898399, Error is 0.0000000020000468
+Computed in 0.04943 seconds
+Computed in 0.0598 seconds
+Process rank: 1
+Computed in 0.05978 seconds
+Process rank: 2
+Computed in 0.05965 seconds
+Process rank: 4
+Computed in 0.05972 seconds
+Process rank: 5
+Computed in 0.05974 seconds
+Process rank: 6
+Computed in 0.05977 seconds
+Process rank: 7
+Computed in 0.05979 seconds
+Process rank: 8
+Computed in 0.05974 seconds
+Process rank: 9
+Computed in 0.05973 seconds
+Process rank: 10
+Computed in 0.0598 seconds
+Process rank: 11
+Computed in 0.05975 seconds
+Process rank: 12
+Computed in 0.05981 seconds
+Process rank: 13
+Computed in 0.05969 seconds
+Process rank: 15
+Computed in 0.05977 seconds
+Process rank: 16
+Computed in 0.05974 seconds
+Process rank: 17
+Computed in 0.0598 seconds
+Process rank: 18
+Computed in 0.05976 seconds
+Process rank: 19
+Computed in 0.05982 seconds
+Process rank: 20
+Computed in 0.05975 seconds
+Process rank: 22
+Computed in 0.05977 seconds
+Process rank: 24
+Computed in 0.05982 seconds
+Process rank: 25
+Computed in 0.05969 seconds
+Process rank: 26
+Computed in 0.05968 seconds
+Process rank: 27
+Computed in 0.05974 seconds
+Process rank: 28
+Computed in 0.05972 seconds
+Process rank: 30
+Computed in 0.05973 seconds
+Process rank: 31
+Computed in 0.05979 seconds
+Process rank: 32
+Computed in 0.05974 seconds
+Process rank: 33
+Computed in 0.0598 seconds
+Process rank: 34
+Computed in 0.05973 seconds
+Process rank: 35
+Computed in 0.05967 seconds
+Process rank: 3
+Computed in 0.06147 seconds
+
+
+Batch Job Summary Report (version 21.01.1) for Job "mpi" (37118431) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-03-11T22:23:36 2022-03-11T22:23:36 2022-03-11T22:23:39 2022-03-11T22:23:47   00:00:08   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    dbaumgar         uzh8        debug        1      0.249 kJ
+

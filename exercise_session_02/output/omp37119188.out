@@ -1,0 +1,20 @@
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=37119188.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: nid00089: tasks 0-35: Out Of Memory
+srun: launch/slurm: _step_signal: Terminating StepId=37119188.0
+
+
+Batch Job Summary Report (version 21.01.1) for Job "omp" (37119188) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-03-11T23:44:51 2022-03-11T23:44:51 2022-03-11T23:44:57 2022-03-11T23:45:28   00:00:31   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    dbaumgar         uzh8       normal        1      1.057 kJ
+

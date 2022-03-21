@@ -1,0 +1,17 @@
+#!/bin/bash -l
+#SBATCH --job-name="omp"
+#SBATCH --account="uzh8"
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=dylan.baumgartner@uzh.ch
+#SBATCH --time=00:05:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-core=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=20
+#SBATCH --partition=normal
+#SBATCH --constraint=mc
+#SBATCH --hint=nomultithread
+#SBATCH --output=/users/dbaumgar/hpc_sol/exercise_session_02/output/omp%j.out
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+srun /users/dbaumgar/hpc_sol/exercise_sesion_03/sum
