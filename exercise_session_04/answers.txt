@@ -1,0 +1,9 @@
+Exercise 1:
+
+The permissions of /users/jbucko are: drwx------+
+
+Access to this dir is only granted to jbucko has access to this directory
+I could not read or write to a file /users/jbucko/hpc_exam_solution.txt
+
+Exercise 2:
+Both are not primes each took 0.006s on my personal laptop.
