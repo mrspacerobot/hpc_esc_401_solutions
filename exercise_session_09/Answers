@@ -1,0 +1,8 @@
+How many map and reduction operations were performed? How many lines/entries
+were treated?
+-Number of operations in: MapReduceTask.jpg
+-Number of lines/entries in: MapReduceLinesEntries.jpg
+
+which output folder(s)/file(s) were created?
+-It was created one folder called "output" and inside it has two files, one is empty and is called "_SUCCESS" and the other one is called "part-00000" and it contains the word count results(it is uploaded in the repo as "part-00000") 
+
