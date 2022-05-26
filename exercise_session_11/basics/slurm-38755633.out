@@ -1,0 +1,32 @@
+dispersion 1D test of length n = 8 : 6.10352e-05MB
+item 2 differs (expected, found): 0.449219 != 0
+==== failure ====
+Host version took 5.96046e-06 s (2.98023e-06 s/step)
+GPU version took 0.000431061 s (0.00021553 s/step)
+dispersion 1D test of length n = 20 : 0.000152588MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 8.10623e-06 s (4.05312e-06 s/step)
+GPU version took 0.000432014 s (0.000216007 s/step)
+dispersion 1D test of length n = 260 : 0.00198364MB
+item 2 differs (expected, found): 0.445312 != 0
+==== failure ====
+Host version took 2.09808e-05 s (1.04904e-05 s/step)
+GPU version took 0.000384092 s (0.000192046 s/step)
+
+
+Batch Job Summary Report (version 21.01.1) for Job "cuda" (38755633) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-05-26T22:41:12 2022-05-26T22:41:12 2022-05-26T22:41:13 2022-05-26T22:41:21   00:00:08   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+    dbaumgar         uzg2        debug        1      0.545 kJ
+
