@@ -52,27 +52,36 @@ int main () {
   /* Matrix allocation on device */
   float *mat_out_gpu, *mat_in1_gpu, *mat_in2_gpu;
   /* TO DO : do the allocation below, using cudaMalloc()*/
-  
+  cudaMalloc (&mat_out_gpu, nx * ny * sizeof(float));
+  cudaMalloc (&mat_in1_gpu, nx * ny * sizeof(float));
+  cudaMalloc (&mat_in2_gpu, nx * ny * sizeof(float));
+	
 
   /* Matrix initialization */
   Init(mat_in1, nx, ny);
   Init(mat_in2, nx, ny);  
   
   /* TO DO : write below the instructions to copy it to the device */
-
+  cudaMemcpy(mat_in1_gpu, mat_in1,nx * ny * sizeof(float), cudaMemcpyDeviceToHost);
+  cudaMemcpy(mat_in2_gpu, mat_in2,nx * ny * sizeof(float), cudaMemcpyDeviceToHost);
+  cudaMemcpy(mat_out_gpu, mat_out,nx * ny * sizeof(float), cudaMemcpyDeviceToHost); 
   
   /* TO DO : complete the number of blocks below */
-  int numBlocks = ...;
+  dim3 threadsPerBlock(16,16);
+  dim3 numBlocks(nx / threadsPerBlock.x, ny / threadsPerBlock.y);
  
   /* TO DO : kernel invocation */
+  kernadd<<<numBlocks, threadsPerBlock>>>(mat_out_gpu, mat_in1_gpu, mat_in2_gpu,nx,ny);
   
   
   cudaDeviceSynchronize();
   
   /* We now transfer back the matrix from the device to the host */
   /* TO DO : write cudaMemcpy() instruction below */
-  
-    
+  cudaMemcpy(mat_out, mat_out_gpu,nx * ny * sizeof(float), cudaMemcpyHostToDevice);
+  cudaMemcpy(mat_in1, mat_in1_gpu,nx * ny * sizeof(float), cudaMemcpyHostToDevice);
+  cudaMemcpy(mat_in2, mat_in2_gpu,nx * ny * sizeof(float), cudaMemcpyHostToDevice);
+
   /* free memory */
   cudaFree(mat_out_gpu);
   cudaFree(mat_in1_gpu);
@@ -83,6 +92,7 @@ int main () {
   for (i=0; i< nx*ny; i++) {	/* No need for a 2D loop, actually ! */
     diff = mat_out[i] - (mat_in1[i]+mat_in2[i]);
     if (fabs(diff) > 0.0000001f) {
+	printf("%s", mat_out[i]);
       error = 1;
     }
   }
